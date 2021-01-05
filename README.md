@@ -47,6 +47,8 @@ Una volta eseguito lo script è importante valorizzare la colonna **Inserita**, 
 
 ## In breve
 
-0. Si esegue il file 
-1. fff
-2. fff
+0. \[SOLO LA PRIMA VOLTA\] Si esegue il file **config.sh** e si risponde alle domande.
+1. Si scrivono le fatture del giorno/mese/anno nel foglio **FATTURE.ods**
+2. Si esegue lo script **invio_fatture.sh**
+3. Si controlla l'esito andando su https://sistemats4.sanita.finanze.it/simossHome/login.jsp **Gestione dati spesa**->**Gestione spese sanitarie**
+4. Si marca l'avvenuto inserimento inserento un valore su tutte le righe della colonna **Inserita**
