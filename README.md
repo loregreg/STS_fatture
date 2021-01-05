@@ -53,6 +53,8 @@ Una volta eseguito lo script è importante valorizzare la colonna **Inserita**, 
 3. Si controlla l'esito andando su https://sistemats4.sanita.finanze.it/simossHome/login.jsp **Gestione dati spesa**->**Gestione spese sanitarie**
 4. Si marca l'avvenuto inserimento inserento un valore su tutte le righe della colonna **Inserita**
 
+
+
 <p align="center">
   <b>Ti è stato utile? Se vuoi puoi offrirmi un caffè:</b>
   <br>
