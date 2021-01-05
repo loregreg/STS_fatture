@@ -1,6 +1,7 @@
 # STS_fatture
 
 Script per l'importazione automatica delle fatture nel Sistema Tessera Sanitaria (STS).
+
 **Solo per i professionisti sanitari e per fatture emesse nel 2020!!**
 
 ### Requisiti
