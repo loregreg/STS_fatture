@@ -44,3 +44,9 @@ Prima di inserire le fatture controllare:
 Per inserire le fatture si esegue lo script **invio_fatture.sh**. Vengono automaticamente importate nel STS tutte le righe presenti nel file FATTURE.ods, ad eccezione della prima (header) e di quelle con l'ultima colonna (Inserita) con valore non nullo.
 
 Una volta eseguito lo script è importante valorizzare la colonna **Inserita**, inserendo un valore qualsiasi (ad es. "INS", "1", "OK",...) su tutte le righe e salvare il file. Questo consentirà di non re-inserire le fatture già inserite la prossima volta che si esegue lo script.
+
+## In breve
+
+0. Si esegue il file 
+1. fff
+2. fff
