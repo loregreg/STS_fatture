@@ -1,6 +1,7 @@
 # STS_fatture
 
-Script per l'importazione automatica delle fatture nel Sistema Tessera Sanitaria (STS)
+Script per l'importazione automatica delle fatture nel Sistema Tessera Sanitaria (STS).
+**Solo per i professionisti sanitari e per fatture emesse nel 2020!!**
 
 ### Requisiti
 
@@ -18,6 +19,16 @@ Lo script importa i dati presenti nel file di **FATTURE.ods** (file di LibreOffi
 * Importo
 * Pagamento tracciato (sì o no)
 * Data del pagamento
+* Inserita: quest'ultimo campo serve per marcare le fatture che sono già state inserite nel sistema STS
+
+### Vantaggi
+
+Lo script consente di gestire tutte insieme le fatture emesse dentro un foglio di calcolo, anziché inserirle una a una nell'applicazione web. Il processo è molto più pratico:
+* NON è necessario fare il login su nessun sito;
+* NON è necessario essere online per aggiungere altre fatture al foglio;
+* NON ci sono menu a tendina, né salti di pagina, ma tutti i dati sono raggruppati in un unico foglio;
+* si può fare copia-incolla dalle fatture già inserite;
+* si hanno i suggerimenti automatici di LibreOffice Calc quando si inizia a scrivere un valore già inserito (ad esempio un codice fiscale).
 
 ### Prima configurazione
 
