@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:doc="http://documentospesap730.sanita.finanze.it">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <doc:inserimentoDocumentoSpesaRequest>
+         <doc:pincode>[PINCODE_PROFESSIONISTA]</doc:pincode>
+         <!--Optional:-->
+         <doc:Proprietario>
+            <!--Optional:-->
+            <doc:cfProprietario>[CF_PROFESSIONISTA]</doc:cfProprietario>
+         </doc:Proprietario>
+         <doc:idInserimentoDocumentoFiscale>
+            <doc:idSpesa>
+               <doc:pIva>[P_IVA_PROFESSIONISTA]</doc:pIva>
+               <doc:dataEmissione>0000-00-00</doc:dataEmissione>
+               <doc:numDocumentoFiscale>
+                  <doc:dispositivo>1</doc:dispositivo>
+                  <doc:numDocumento>00/00</doc:numDocumento>
+               </doc:numDocumentoFiscale>
+            </doc:idSpesa>
+            <doc:dataPagamento>0000-00-00</doc:dataPagamento>
+            <doc:cfCittadino>[CF_PAZIENTE]</doc:cfCittadino>
+            <!--1 or more repetitions:-->
+            <doc:voceSpesa>
+               <doc:tipoSpesa>SP</doc:tipoSpesa>
+               <doc:importo>0.00</doc:importo>
+            </doc:voceSpesa>
+            <!--Optional:-->
+            <doc:pagamentoTracciato>SI</doc:pagamentoTracciato>
+         </doc:idInserimentoDocumentoFiscale>
+      </doc:inserimentoDocumentoSpesaRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
