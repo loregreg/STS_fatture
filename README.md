@@ -2,8 +2,7 @@
 
 Script per l'importazione automatica delle fatture nel Sistema Tessera Sanitaria (STS).
 
-**Solo per i professionisti sanitari e per fatture emesse nel 2020 e nel 2021!! 
-Se si inseriscono fatture del 2020 è necessario sostituire il contenuto del file templates/fattura.soap.xml con quello del file templates/fattura.soap.2020.xml**
+**Solo per i professionisti sanitari e per fatture emesse nel 2020 e nel 2021!!**
 
 ### Requisiti
 
@@ -35,6 +34,13 @@ Lo script consente di gestire tutte insieme le fatture emesse dentro un foglio d
 ### Prima configurazione
 
 Al primo utilizzo è necessario eseguire lo script di configurazione **config.sh**, così da impostare i vostri dati (Pin code, codice fiscale, ecc.). Lo script genera il file **config.txt** contentente i vostri dati in forma cifrata.
+
+**Se si inseriscono fatture del 2020:**
+- è necessario sostituire il contenuto del file templates/fattura.soap.xml con quello del file templates/fattura.soap.2020.xml
+
+**Se si inseriscono fatture del 2021:**
+- è necessario modificare il file templates/fattura.soap.xml il contenuto del tag <doc:naturaIVA> con il valore corrispondente al codice dell'operazione esente IVA (attualmente impostato a N2.1). Se le proprie prestazioni NON sono esenti IVA è necessario sostituire il tag <doc:naturaIVA> con il tag <doc:aliquotaIVA> e impostare la propria l'aliquota:
+~~<doc:naturaIVA>N2.1</doc:naturaIVA>~~ <doc:aliquotaIVA>12.50</doc:aliquotaIVA>
 
 ### Inserimento automatico delle fatture
 
