@@ -2,7 +2,8 @@
 
 Script per l'importazione automatica delle fatture nel Sistema Tessera Sanitaria (STS).
 
-**Solo per i professionisti sanitari e per fatture emesse nel 2020!!**
+**Solo per i professionisti sanitari e per fatture emesse nel 2020 e nel 2021!! 
+Se si inseriscono fatture del 2020 è necessario sostituire il contenuto del file templates/fattura.soap.xml con quello del file templates/fattura.soap.2020.xml**
 
 ### Requisiti
 
