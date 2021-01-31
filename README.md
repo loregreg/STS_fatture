@@ -39,7 +39,7 @@ Al primo utilizzo è necessario eseguire lo script di configurazione **config.sh
 - è necessario sostituire il contenuto del file templates/fattura.soap.xml con quello del file templates/fattura.soap.2020.xml
 
 **Se si inseriscono fatture del 2021:**
-- è necessario modificare il file templates/fattura.soap.xml il contenuto del tag <doc:naturaIVA> con il valore corrispondente al codice dell'operazione esente IVA (attualmente impostato a N2.1). Se le proprie prestazioni NON sono esenti IVA è necessario sostituire il tag <doc:naturaIVA> con il tag <doc:aliquotaIVA> e impostare la propria l'aliquota:
+- è necessario modificare il file templates/fattura.soap.xml il contenuto del tag \<doc:naturaIVA\> con il valore corrispondente al codice dell'operazione esente IVA (attualmente impostato a N2.1). Se le proprie prestazioni NON sono esenti IVA è necessario sostituire il tag \<doc:naturaIVA\> con il tag \<doc:aliquotaIVA\> e impostare la propria l'aliquota:
 
   ~~\<doc:naturaIVA>N2.1</doc:naturaIVA>~~  **\<doc:aliquotaIVA\>12.50\</doc:aliquotaIVA\>**
 
